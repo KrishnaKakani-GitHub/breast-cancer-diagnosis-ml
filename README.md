@@ -1,6 +1,6 @@
 ### 
 
-# Breast Cancer Diagnosis with Machine Learning
+# Breast Cancer Diagnosis using Machine Learning
 
 This project demonstrates a complete pipeline for classifying breast cancer tumors using scikit-learn, from EDA to model deployment using Streamlit.
 
