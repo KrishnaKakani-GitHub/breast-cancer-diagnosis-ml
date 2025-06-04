@@ -17,8 +17,7 @@ from sklearn.metrics import (accuracy_score, classification_report,
 pd.set_option('display.max_columns', 30)
 
 # Importing the dataset
-import pandas as pd
-data = pd.read_csv('/content/data.csv')
+data = pd.read_csv('data/breast_cancer_data.csv')
 
 # View the data
 data.head()
