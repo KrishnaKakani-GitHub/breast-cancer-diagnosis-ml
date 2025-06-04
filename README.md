@@ -1,4 +1,4 @@
-# 🧠 Breast Cancer Diagnosis using Machine Learning
+# Breast Cancer Diagnosis using Machine Learning
 
 This project demonstrates a complete pipeline for classifying breast cancer tumors using **scikit-learn**, from Exploratory Data Analysis (EDA) to model deployment using **Streamlit**. It is based on the **Breast Cancer Wisconsin Diagnostic Dataset** and includes visualizations, model training, evaluation, and a user-friendly app interface.
 
@@ -31,7 +31,7 @@ This project demonstrates a complete pipeline for classifying breast cancer tumo
 🌲 Decision Tree Visualization
 
 
-📚 Dataset Information
+Dataset Information:
 
 Dataset: Breast Cancer Wisconsin (Diagnostic)
 Source: UCI Machine Learning Repository
