@@ -5,6 +5,8 @@ scikit-learn==1.6.1
 matplotlib==3.10.3
 scipy==1.15.3
 joblib==1.5.1
+seaborn==0.13.2
+
 
 # Streamlit and ecosystem
 streamlit==1.45.1
