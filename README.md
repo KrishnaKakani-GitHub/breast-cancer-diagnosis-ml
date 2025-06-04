@@ -1,12 +1,10 @@
-### 
+# Breast Cancer Diagnosis using Machine Learning
 
-# Breast Cancer Diagnosis with Machine Learning
-
-This project demonstrates a complete pipeline for classifying breast cancer tumors using scikit-learn, from EDA to model deployment using Streamlit.
+This project demonstrates a complete pipeline for classifying breast cancer tumors using **scikit-learn**, from Exploratory Data Analysis (EDA) to model deployment using **Streamlit**. It is based on the **Breast Cancer Wisconsin Diagnostic Dataset** and includes visualizations, model training, evaluation, and a user-friendly app interface.
 
 ---
 
-## Project Directory Structure
+## 📁 Project Directory Structure
 
 ```bash
 ├── data/
@@ -18,7 +16,8 @@ This project demonstrates a complete pipeline for classifying breast cancer tumo
 │   ├── predict_sample.py             # Script for testing on mock data
 │   └── streamlit_app.py              # Streamlit interface
 ├── images/
-│   └── eda_output.png                # Any saved EDA visuals
+│   ├── decision_tree.png             # Decision tree visualization
+│   └── classification_report.png     # Model performance report
 ├── models/
 │   └── trained_model.pkl             # Saved scikit-learn model
 ├── requirements.txt
@@ -26,10 +25,19 @@ This project demonstrates a complete pipeline for classifying breast cancer tumo
 └── README.md
 
 
-**Breast Cancer Wisconsin Diagnostic Data Set**  
-Source: [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
+📊 Classification Report
 
-Citation:  
-Wolberg, W. H., & Mangasarian, O. L. (1992). *Breast Cancer Wisconsin (Diagnostic) Data Set*. UCI Machine Learning Repository. https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
+
+🌲 Decision Tree Visualization
+
+
+Dataset Information:
+
+Dataset: Breast Cancer Wisconsin (Diagnostic)
+Source: UCI Machine Learning Repository
+Citation:
+Wolberg, W. H., & Mangasarian, O. L. (1992). Breast Cancer Wisconsin (Diagnostic) Data Set. UCI Machine Learning Repository. Retrieved from https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
+
+
 
 
