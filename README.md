@@ -23,7 +23,7 @@ This project demonstrates a complete pipeline for classifying breast cancer tumo
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-🖼️ Visual Results
+
 
 📊 Classification Report
 
