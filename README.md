@@ -18,7 +18,7 @@ This project demonstrates a complete pipeline for classifying breast cancer tumo
 │   ├── predict_sample.py             # Script for testing on mock data
 │   └── streamlit_app.py              # Streamlit interface
 ├── images/
-│   └── eda_output.png                # Any saved EDA visuals
+│   └── decision_tree.png                # Any saved EDA visuals
 ├── models/
 │   └── trained_model.pkl             # Saved scikit-learn model
 ├── requirements.txt
