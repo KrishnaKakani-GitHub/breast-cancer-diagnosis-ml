@@ -5,7 +5,6 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Display settings
 pd.set_option('display.max_columns', 30)
 
 # === FUNCTION DEFINITIONS === #
