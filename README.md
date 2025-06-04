@@ -25,13 +25,13 @@ This project demonstrates a complete pipeline for classifying breast cancer tumo
 └── README.md
 
 
+## Visual Results
+
 ### 📊 Classification Report
 ![Classification Report](https://github.com/KrishnaKakani-GitHub/breast-cancer-diagnosis-ml/raw/main/images/classification_report.png)
 
 ### 🌲 Decision Tree Visualization
 ![Decision Tree](https://github.com/KrishnaKakani-GitHub/breast-cancer-diagnosis-ml/raw/main/images/decision_tree.png)
-
-
 
 Dataset Information:
 
