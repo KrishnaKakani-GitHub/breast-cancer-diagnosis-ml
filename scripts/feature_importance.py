@@ -32,8 +32,8 @@ def evaluate_model(model, X_test, y_test):
     """Evaluate the trained model on the test set."""
     y_pred = model.predict(X_test)
     accuracy = accuracy_score(y_test, y_pred)
-    print(f"\n✅ Accuracy: {accuracy:.4f}")
-    print("\n✅ Classification Report:")
+    print(f"\nAccuracy: {accuracy:.4f}")
+    print("\nClassification Report:")
     print(classification_report(y_test, y_pred))
 
 def plot_decision_tree(model, feature_names):
@@ -51,3 +51,4 @@ if __name__ == "__main__":
     model = train_decision_tree(X_train, y_train)
     evaluate_model(model, X_test, y_test)
     plot_decision_tree(model, feature_names=X_train.columns)
+

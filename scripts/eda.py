@@ -48,9 +48,9 @@ def plot_pairplot(df):
     plt.show()
 
 def explore_data(df):
-    print("✅ Data preview:")
+    print("Data preview:")
     print(df.head())
-    print("\n✅ Dataset info:")
+    print("\nDataset info:")
     print(df.info())
 
 # === MAIN EXECUTION === #

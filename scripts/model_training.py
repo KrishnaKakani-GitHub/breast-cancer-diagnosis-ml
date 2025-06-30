@@ -27,7 +27,7 @@ def train_decision_tree_entropy(X_train, y_train, X_test, y_test):
 
     acc = accuracy_score(y_test, y_pred)
     print("\nDecision Tree (Entropy Criterion) Report:")
-    print(f"📊 Model Accuracy: {acc:.4f}")
+    print(f"Model Accuracy: {acc:.4f}")
     print(classification_report(y_test, y_pred))
 
     # Save tree visualization
@@ -35,30 +35,12 @@ def train_decision_tree_entropy(X_train, y_train, X_test, y_test):
     plt.figure(figsize=(12, 8))
     tree.plot_tree(dt, filled=True, feature_names=X_train.columns, class_names=['Benign', 'Malignant'])
     plt.savefig("images/decision_tree.png", dpi=200)
-    print("🖼️ Decision tree image saved to images/decision_tree.png")
+    print("Decision tree image saved to images/decision_tree.png")
 
     # Save model
     os.makedirs("models", exist_ok=True)
     joblib.dump(dt, "models/trained_model.pkl")
-    print("✅ Model saved to models/trained_model.pkl")
-
-    return y_pred
-
-
-    print("\nDecision Tree (Entropy Criterion) Report:")
-    print(classification_report(y_test, y_pred))
-
-    # Save tree visualization
-    os.makedirs("images", exist_ok=True)
-    plt.figure(figsize=(12, 8))
-    tree.plot_tree(dt, filled=True, feature_names=X_train.columns, class_names=['Benign', 'Malignant'])
-    plt.savefig("images/decision_tree.png", dpi=200)
-    print("🖼️ Decision tree image saved to images/decision_tree.png")
-
-    # Save model
-    os.makedirs("models", exist_ok=True)
-    joblib.dump(dt, "models/trained_model.pkl")
-    print("✅ Model saved to models/trained_model.pkl")
+    print("Model saved to models/trained_model.pkl")
 
     return y_pred
 
