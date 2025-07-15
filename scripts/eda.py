@@ -21,7 +21,7 @@ def encode_target(df):
     return df
 
 def check_class_balance(df):
-    print("\n✅ Class Balance:")
+    print("\n Class Balance:")
     print(df['diagnosis'].value_counts(normalize=True))
 
 def plot_correlation_matrix(df):
